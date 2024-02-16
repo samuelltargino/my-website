@@ -18,7 +18,9 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={spaceGrotesk.className}>
-        <div className="w-full max-w-7xl ">{children}</div>
+        <div className="w-full max-w-xl overflow-x-hidden px-4 sm:px-0 md:max-w-3xl lg:max-w-4xl xl:max-w-7xl ">
+          {children}
+        </div>
       </body>
     </html>
   )

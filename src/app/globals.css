@@ -3,15 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --foreground-light-mode: #02022B;
-  --background-light-mode: #FEFEFE;
-  --btn-text-color-light-mode: #FEFEFE;
+  /* foreground */
+  --foreground-light-mode: #010120;
+  --foreground-hover-light-mode: #1F1F32;
+
+  /* cta */
+  --cta-color-light-mode: #02022B;
+
+  --light-foreground-color-light-mode: #FEFEFE;
+
+
+  --responsive-menu-light-mode: #efefef;
+  --divider-light-mode-color: rgba(2, 2, 43, 0.1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-dark-mode: #E6F0FF;
     --background-dark-mode: #02022B;
+    --responsive-menu-dark-mode: #090126;
+
   }
 }
 

@@ -9,9 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'lm-primary-color': 'var(--foreground-light-mode)',
-        'btn-text-color': 'var(--btn-text-color-light-mode)',
-        'lm-bg-color': 'var(--background-light-mode)',
+        'lm-cta-color': 'var(--cta-color-light-mode)',
+        'lm-l-foreground-color': 'var(--light-foreground-color-light-mode)',
+        'lm-foreground-color': 'var(--foreground-light-mode)',
+        'lm-divider-color': 'var(--divider-light-mode-color)',
+        'lm-foreground-hover-color': 'var(--foreground-hover-light-mode)',
+        'lm-responsive-menu-color': 'var(--responsive-menu-light-mode)',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
