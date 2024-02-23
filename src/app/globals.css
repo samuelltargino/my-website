@@ -4,17 +4,20 @@
 
 :root {
   /* foreground */
-  --foreground-light-mode: #010120;
-  --foreground-hover-light-mode: #1F1F32;
+  --foreground-light-mode: #130017;
+  --foreground-hover-light-mode: #150219;
 
   /* cta */
-  --cta-color-light-mode: #02022B;
+  --cta-color-light-mode: #232A48;
+  --cta-hover-color-light-mode: #02022B;
+  --cta-active-color-light-mode: #12001C;
+  --light-foreground-color-light-mode: #F5F9FF;
 
-  --light-foreground-color-light-mode: #FEFEFE;
 
-
-  --responsive-menu-light-mode: #efefef;
+  --responsive-menu-light-mode: #F0F6FF;
   --divider-light-mode-color: rgba(2, 2, 43, 0.1);
+
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,7 +37,7 @@
 
 body {
   color: var(--foreground-light-mode);
-  background: var(--background-light-mode);
+  background: var(--light-foreground-color-light-mode);
   scroll-behavior: smooth;
   display: flex;
   justify-content: center;
